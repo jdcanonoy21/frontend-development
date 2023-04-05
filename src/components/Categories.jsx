@@ -14,7 +14,7 @@ const Categories = ({ filterItems, categories }) => {
       {categories.map((category, index) => {
         const isActive = category === activeCategory;
         return (
-          <li className="mr-3" key={index}>
+          <li className="mr-2" key={index}>
             <Button
               onClick={() => handleClickCategory(category)}
               primary
